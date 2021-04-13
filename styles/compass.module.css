@@ -1,0 +1,58 @@
+.badge {
+  border: 1px dotted #c5dbe8;
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-color:transparent;
+  /* font-family: "IBM Plex Sans Condensed", sans-serif; */
+  letter-spacing: -0.1em;
+  color: #f1f0e2;
+  /* font-size: 28px; */
+  transition: 0.9s;
+}
+
+.compass {
+  top: 10px;
+  position: fixed;
+  border:1px dotted #c5dbe8;
+  border-radius: 15px;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  margin: 20px;
+  z-index: 100;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+.pricepoint {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  width:112px;
+  position:fixed;
+  padding:0px 20px 0px 20px;
+  top:10px;
+  margin:20px;
+  color:#1a1a1a;
+  z-index:100;
+  /* border-radius: 15px; */
+  border:1px solid white;
+  right:0px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
