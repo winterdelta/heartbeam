@@ -19,10 +19,11 @@ class encompasser extends Component {
                         <div className={styles.videothon}>
                             {/* <div>VIDEOTHON</div> */}
 
-                                <span className={styles.dropCharacter}>
-                                    <Image src="/Hummingbird.svg" height={150} width={150} />
-                                </span>
-                                {/* <div className={styles.time}><div>OFFLINE</div></div> */}
+                                <Image src="/Unicorn.svg" height={50} width={50} /> 
+                                <div>
+                                    NORTHERN QUARTER CULTURE. SHOPPING FOR THE NORTHERN QUARTER. 
+                                </div>
+                                <div className={styles.time}><div>OFFLINE</div></div>
                         </div>
                 </div>
             </div>

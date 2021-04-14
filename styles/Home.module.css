@@ -1,8 +1,0 @@
-.video {
-  position: fixed;
-  background-position: bottom;
-  background-size: cover;
-  overflow: hidden;
-  min-width: 100vw;
-  min-height: 400px;
-}

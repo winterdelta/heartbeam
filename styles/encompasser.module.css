@@ -1,29 +1,58 @@
 .encompasser {
+    margin-top:140px;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
     height: 80vh;
     color: #1a1a1a;
     font-weight:900;
+    font-weight: 100;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style:italic;
+    flex-direction:column;
 }
 
 .display {
     /* border: 1px dotted #f1f0e2; */
     padding: 20px;
     border-radius: 4px 4px 20px 20px;
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
+    /* -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px); */
     text-transform: uppercase;
+    filter: drop-shadow(0 0 0.75rem #ccfff5);
 }
 
 .videothon {
     display:flex;
     justify-content:flex-end;
     align-items: center;
-    width: 100%;
-    border:1px dotted #c5dbe8;
+    width: 300px;
+    height:fit-content;
+    border:1px dotted #1a1a1a;
     border-radius: 15px;
-    padding:20px 80px 20px 80px;
+    padding:20px;
+    /* padding:20px 80px 20px 80px; */
     background-color:#ccfff5;
     color: #1a1a1a;
+    flex-direction:column;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+    width:100%;
+}
+
+.time div {
+    background:#c5dbe8;
+    padding:10px;
+    border-radius:5px;
+    color:#1a1a1a;
+    border:1px dotted #1a1a1a;
+}
+
+.dropCharacter {
+    display: flex;
+    justify-content: flex-start;
+    width:100%;
 }
