@@ -1,18 +1,8 @@
-.blurredGlass {
-  -webkit-backdrop-filter: blur(150px);
-  backdrop-filter: blur(150px);
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .video {
   position: fixed;
   background-position: bottom;
   background-size: cover;
   overflow: hidden;
   min-width: 100vw;
-  min-height: 100vh;
+  min-height: 400px;
 }

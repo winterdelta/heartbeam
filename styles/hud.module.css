@@ -5,9 +5,10 @@
     right:0;
     display:flex;
     justify-content:center;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     background-color:transarent;
-    margin: 20px;
+    margin: 20px 20px 20px 0px;
     padding: 40px;
     border-radius: 20px;
     height: 250px;
@@ -15,7 +16,15 @@
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     border:1px dotted #f1f0e2;
+    line-height: 3em;
+    font-weight:600;
     /* font-family: 'IBM Plex Mono', monospace; */
+}
+
+.hud div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bold {

@@ -22,7 +22,7 @@ export default function Home() {
             <meta property="twitter:description" content="Researcher + Encompasser + Sonar"/>
             <meta property="twitter:image" content="/Waves.png"/>
           </Head>
-            <video className={styles.video} src="/CloudsBlue.mp4" autoPlay loop playsInline muted/>
+            <video className={styles.video} src="/CloudsBlue.mp4" autoPlay loop playsInline muted/>>
       </Layout>
   )
 }
