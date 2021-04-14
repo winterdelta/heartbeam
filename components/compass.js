@@ -9,7 +9,8 @@ export default class compass extends Component {
     return (
       <div>
             <Head>
-              <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@700&display=swap" rel="stylesheet"/>
+              <link rel="preconnect" href="https://fonts.gstatic.com"/>
+              <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap" rel="stylesheet"/>
             </Head>
           <div className={styles.compass}>
                 <Link href="/">

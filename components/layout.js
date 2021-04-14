@@ -1,5 +1,6 @@
 import React from "react";
 import Compass from "./compass";
+import HUD from './hud'
 
 export default function Layout({ children }) {
   return (
@@ -8,6 +9,9 @@ export default function Layout({ children }) {
         <Compass />
       </div>
       {children}
+      <div>
+        <HUD/>
+      </div>
     </div>
   );
 }
