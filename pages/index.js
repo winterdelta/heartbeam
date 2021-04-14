@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
 import styles from '../styles/Home.module.css'
+import Encompasser from '../components/encompasser'
 
 export default function Home() {
   return (
@@ -21,8 +22,15 @@ export default function Home() {
             <meta property="twitter:title" content="W∆ | Winterdelta | Heartbeam"/>
             <meta property="twitter:description" content="Researcher + Encompasser + Sonar"/>
             <meta property="twitter:image" content="/Waves.png"/>
+
+            <link rel="preconnect" href="https://fonts.gstatic.com"/>
+            <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,100&display=swap" rel="stylesheet"/>
+            
           </Head>
             <video className={styles.video} src="/CloudsBlue.mp4" autoPlay loop playsInline muted/>
+
+          <Encompasser/>
+
       </Layout>
   )
 }
