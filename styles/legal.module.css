@@ -1,5 +1,8 @@
 .legal {
-    color: #f1f0e2;
-    margin: 10px;
-    font-weight:700;
+    color: #1a1a1a;
+    /* margin: 20px; */
+    font-weight:100;
+    font-style:italic;
+    display: flex;
+    width:100%;
 }

@@ -9,12 +9,14 @@ class hud extends Component {
       <div className={styles.hud}>
           <Head>
             <link rel="preconnect" href="https://fonts.gstatic.com"/>
-            <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,100&display=swap" rel="stylesheet"/>            
+            <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,100&display=swap" rel="stylesheet"/>
           </Head>
         <div>
             <span className={styles.bold}>MULTI-OS</span> HESPERIDÉ Q3/4
         </div>
-        <Legal />
+        <div className={styles.legal}>
+          <Legal />
+        </div>
       </div>
     );
   }
