@@ -21,7 +21,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     width:300px;
-    height: 200px;
+    height: 220px;
     text-transform: uppercase;
     filter: drop-shadow(0 0 0.75rem #ccfff5);
     margin-top:10px;
@@ -36,6 +36,7 @@
     border-radius: 15px;
     padding:20px;
     height: 100px;
+    height:220px;
     /* padding:20px 80px 20px 80px; */
     background-color:#ccfff5;
     color: #1a1a1a;

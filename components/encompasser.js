@@ -18,13 +18,15 @@ class encompasser extends Component {
                     {/* <p>VIDEOTHON</p> */}
                         <div className={styles.videothon}>
                             {/* <div>VIDEOTHON</div> */}
-                                <div>VIDEO SHOPPING IN THE NORTHERN QUARTER</div>
-                                <div>
-                                    {/* <span className={styles.dropCharacter}>
+                                <div className={styles.tag}>HOUSES: VIDEO SHOPPING IN THE NORTHERN QUARTER</div>
+                                {/* <div className={styles.organizer}>
+                                    <div className={styles.shop}></div>
+                                    <div className={styles.time}></div>
+                                </div> */}
+                                    <span className={styles.dropCharacter}>
                                         <Image src="/Hummingbird.svg" height={150} width={150} />
-                                    </span> */}
-                                </div>
-                                <div className={styles.time}>OFFLINE</div>
+                                    </span>
+                                <div className={styles.status}>OFFLINE</div>
                         </div>
                 </div>
             </div>

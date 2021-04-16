@@ -7,7 +7,6 @@ import Link from 'next/link'
 class encompasser extends Component {
     render() {
         return (
-            <Link href="https://winterdelta.medium.com/">
                 <div className={styles.encompasser}>
                     <Head>
                         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -18,13 +17,22 @@ class encompasser extends Component {
                     </Head>
                     <div className={styles.display}>
                         {/* <p>VIDEOTHON</p> */}
-                            <div className={styles.videothon}>
-                                {/* <div>VIDEOTHON</div> */}
-                                <div className={styles.legal}>GEOMETER</div>
-                            </div>
+                        <div className={styles.videothon}>
+                            {/* <div>VIDEOTHON</div> */}
+                                <div className={styles.tag}>GEOMETER</div>
+                                {/* <div className={styles.organizer}>
+                                    <div className={styles.shop}></div>
+                                    <div className={styles.time}></div>
+                                </div> */}
+                                    <span className={styles.dropCharacterActive}>
+                                        <Link href="https://winterdelta.medium.com/">
+                                            <Image src="/Dragonfly.svg" height={150} width={150} />
+                                        </Link>
+                                    </span>
+                                <div className={styles.status}>ONLINE</div>
+                        </div>
                     </div>
                 </div>
-            </Link>
         );
     }
 }
