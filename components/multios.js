@@ -17,7 +17,7 @@ class encompasser extends Component {
                 </Head>
                 <div className={styles.display}>
                         <div className={styles.videothon}>
-                                <div>MULTI-OS HESPERIDÉ Q3/4</div>
+                                <div>THIS IS AN INSTANCE OF THE MULTI-OS HESPERIDÉ BUILD Q3</div>
                                 <div className={styles.legal}><Legal/></div>
                         </div>
                 </div>

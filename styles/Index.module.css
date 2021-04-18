@@ -1,24 +1,125 @@
 .video {
-  position:fixed;
-  background-position:top;
-  background-size:cover;
-  overflow:hidden;
-  width:100vw;
+  /* position:fixed; */
+  /* background-position:top; */
+  background-size: cover;
+  width: 80vw;
+  overflow: hidden;
+  /* height:120vh; */
   background: black;
+  border-radius: 10px;
+  /* margin-bottom: 50px; */
+}
+
+.compassBar {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  margin-top: 160px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  /* -webkit-overflow-scrolling: touch; */
+}
+
+.compassBarText {
+  overflow: scroll;
+  width: fit-content;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.compassBarText div {
+  display: inline-block;
+  margin: 10px;
+  background-color: #1a1a1a;
+  border-radius: 6px;
+  border: 0.5px solid #1a1a1a;
+  color: #f1f0e2;
+  padding: 10px;
+}
+
+.videoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  height: 100vh;
+  bottom: 0;
+  z-index: -100;
 }
 
 .os {
-  display:flex;
-  width:fit-content;
+  display: flex;
+  width: fit-content;
   flex-direction: row;
   overflow: scroll;
-  background: black;
-  width:100vw;
+  background: white;
+  width: 100vw;
 }
 
 @media only screen and (max-width: 600px) {
   .video {
-    width:unset;
-    height:100vh;
+    width: unset;
+    height: 90vh;
   }
+}
+
+.navigator {
+  color: white;
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "IBM Plex Mono", monospace;
+  font-style: italic;
+  font-weight: 100;
+  /* border-top: 1px solid #1a1a1a; */
+}
+
+.navigatorWidget {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  /* -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px); */
+  /* height:400px; */
+  /* border:1px solid #f1f0e2; */
+  /* background:#FFFEF7; */
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.navigatorWidgetTitle {
+  letter-spacing: 0.5em;
+  margin-bottom: 5px;
+  font-weight: 100;
+  font-style: normal;
+  text-indent: 20px;
+}
+
+.navigatorWidgetTitleJapanese {
+  /* letter-spacing: 0.5em; */
+  margin-bottom: 5px;
+  font-weight: 100;
+  font-style: normal;
+  text-indent: 20px;
+  font-size: 20px;
+}
+
+.navigatorWidgetTitleArabic {
+  /* letter-spacing: 0.5em; */
+  margin-bottom: 5px;
+  font-weight: 100;
+  font-style: normal;
+  text-indent: 20px;
+  font-family: "IBM Plex Mono", monospace;
+  line-height: 1em;
+}
+
+.navigatorWidgetText {
+  font-size: inherit;
 }

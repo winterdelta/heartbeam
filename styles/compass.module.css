@@ -1,10 +1,10 @@
 .badge {
-  border: 1px dotted#f1f0e2;
+  border: 0.5px solid#1a1a1a;
   padding: 10px;
   width: 70px;
   height: 70px;
   border-radius: 8px;
-  font-weight:100;
+  font-weight:400;
   font-style:italic;
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@
   margin: 20px;
   background-size: 300px;
   background-repeat: no-repeat;
-  background-color:transparent;
+  background-color:#1a1a1a;
   /* font-family: "IBM Plex Sans Condensed", sans-serif; */
   letter-spacing: -0.1em;
   color: #f1f0e2;
@@ -23,7 +23,7 @@
 .compass {
   top: 10px;
   position: fixed;
-  border:1px dotted #f1f0e2;
+  border:0.5px solid #1a1a1a;
   border-radius: 15px;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
@@ -47,7 +47,7 @@
   color:#1a1a1a;
   z-index:100;
   /* border-radius: 15px; */
-  border:1px solid #f1f0e2;
+  border:1px solid #1a1a1a;
   right:0px;
 }
 
@@ -55,5 +55,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #f1f0e2;
+  color: #1a1a1a;
 }

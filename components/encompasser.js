@@ -3,6 +3,7 @@ import styles from '../styles/encompasser.module.css'
 import Image from 'next/image'
 import Head from 'next/head'
 
+
 class encompasser extends Component {
     render() {
         return (
@@ -10,7 +11,7 @@ class encompasser extends Component {
                 <Head>
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link
-                        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,100&display=swap"
+                        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,200&display=swap"
                         rel="stylesheet"
                     />
                 </Head>
@@ -23,9 +24,9 @@ class encompasser extends Component {
                                     <div className={styles.shop}></div>
                                     <div className={styles.time}></div>
                                 </div> */}
-                                    <span className={styles.dropCharacter}>
+                                    {/* <span className={styles.dropCharacter}>
                                         <Image src="/Hummingbird.svg" height={150} width={150} />
-                                    </span>
+                                    </span> */}
                                 <div className={styles.status}>OFFLINE</div>
                         </div>
                 </div>

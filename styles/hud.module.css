@@ -14,9 +14,9 @@
     height: 250px;
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
-    border:1px dotted #f1f0e2;
+    border:1px solid #f1f0e2;
     line-height: 3em;
-    font-weight:100;
+    font-weight:400;
     font-style:italic;
     /* font-family: 'IBM Plex Mono', monospace; */
 }
@@ -28,8 +28,8 @@
 }
 
 .bold {
-    font-weight: 900;
-    border:1px dotted #f1f0e2;
+    font-weight: 100;
+    border:1px solid #f1f0e2;
     border-radius:10px;
     padding:10px;
     margin:10px;
