@@ -1,13 +1,24 @@
 import React, { Component } from "react";
 import styles from "../styles/buttons.module.css";
-import { PlayFilledAlt32 } from "@carbon/icons-react";
+import { PlayFilledAlt16 } from "@carbon/icons-react";
+import { PauseFilled16 } from "@carbon/icons-react";
 import { Launch16 } from "@carbon/icons-react";
 import Donate from './donate'
 import Head from 'next/head'
 import Link from 'next/link'
 
-class buttons extends Component {
-  render() {
+function buttons() {
+
+    function play() {
+      var audio = document.getElementById('a1');
+      audio.play();
+    }
+
+    function pause() {
+      var audio = document.getElementById('a1');
+      audio.pause()
+    }
+  
     return (
       <div className={styles.buttons}>
             <Head>
@@ -18,9 +29,17 @@ class buttons extends Component {
                 />
             </Head>
         <div className={styles.buttonArray}>
-          {/* <div>
-            <PlayFilledAlt32 />
-          </div> */}
+          <div>
+            <button className={styles.button} onClick={play}>
+              <PlayFilledAlt16 />
+            </button>
+            <button className={styles.button} onClick={pause}>
+              <PauseFilled16 />
+            </button>
+            <audio id="a1">
+              <source src='/Winterdelta.mp3' type='audio/mpeg' />
+            </audio>
+          </div>
           {/* <div>R&D FUND</div> */}
           {/* <Donate/> */}
           <Link href="https://muse.ai/v/vbPNG3y">
@@ -34,7 +53,6 @@ class buttons extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default buttons;
