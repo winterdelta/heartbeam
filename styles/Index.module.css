@@ -59,10 +59,34 @@
   width: 100vw;
 }
 
+.videoContainerMobile {
+  display:none;
+}
+
 @media only screen and (max-width: 600px) {
   .video {
     width: unset;
     height: 90vh;
+  }
+
+  .navigator {
+    color: #1a1a1a !important;
+  }
+
+  .videoContainer {
+    display: none;
+  }
+
+  .videoContainerMobile {
+    background-image: url("/public/Waves.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    bottom: 0;
+    z-index: -100;
   }
 }
 
