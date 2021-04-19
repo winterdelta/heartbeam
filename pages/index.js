@@ -86,6 +86,7 @@ export default function Home() {
           loop
           playsInline
           muted
+          poster="/Waves.jpg"
         />
       </div>
     </Layout>
