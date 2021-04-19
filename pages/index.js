@@ -25,15 +25,15 @@ export default function Home() {
           property="og:description"
           content="Researcher + Encompasser + Sonar"
         />
-        <meta property="og:image" content="/Waves.png" />
-        <meta property="twitter:card" content="/Waves.png" />
+        <meta property="og:image" content="/Waves.jpg" />
+        <meta property="twitter:card" content="/Waves.jpg" />
         <meta property="twitter:url" content="https://www.winterdelta.com" />
         <meta property="twitter:title" content="W∆ | Winterdelta | Heartbeam" />
         <meta
           property="twitter:description"
           content="Researcher + Encompasser + Sonar"
         />
-        <meta property="twitter:image" content="/Waves.png" />
+        <meta property="twitter:image" content="/Waves.jpg" />
 
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
