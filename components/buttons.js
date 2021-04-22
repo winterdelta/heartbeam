@@ -44,10 +44,10 @@ function buttons() {
           {/* <Donate/> */}
           <Link href="https://muse.ai/v/vbPNG3y">
             <div>
-              INFOMERCIAL{" "}
-              <span className={styles.spacing}>
+              INFOMERCIAL
+              {/* <span className={styles.spacing}>
                 <Launch16 />
-              </span>
+              </span> */}
             </div>
           </Link>
         </div>

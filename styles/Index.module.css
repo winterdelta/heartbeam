@@ -27,6 +27,7 @@
   font-family: "IBM Plex Mono", monospace;
   font-weight: 100;
   cursor: pointer;
+  font-style: italic;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -44,10 +45,12 @@
   display: inline-block;
   margin: 10px;
   background-color: #1a1a1a;
-  border-radius: 6px;
+  border-radius: 50px;
   border: 0.5px solid #1a1a1a;
-  color: #f1f0e2;
-  padding: 10px;
+  color: #ccfff5;
+  padding: 20px;
+  /* -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px); */
 }
 
 .videoContainer {
@@ -78,6 +81,11 @@
   .video {
     width: unset;
     height: 90vh;
+  }
+
+  .compassBarText div {
+    background-color: #1a1a1a;
+    color: #f1f0e2;
   }
 
   .navigator {

@@ -52,11 +52,18 @@ export default function Home() {
           <Link href="https://winterdelta.medium.com/">
             <div>LEAVES OF LOTHLORIÉN | CIVILISATION UPON A CITY: NYC</div>
           </Link>
-          {/* <Link href="https://www.instagram.com/solarperimeter/">
+          <Link href="https://www.instagram.com/solarperimeter/">
             <div>SECURING THE SOLAR PERIMETER</div>
           </Link>
-          <div>VAR BY SOLILOQUY</div>
-          <div>VOYAGER77 FAN CLUB</div> */}
+          <Link href="https://muse.ai/v/je5o2M5">
+            <div>VAR BY SOLILOQUY</div>
+          </Link>
+          <Link href="https://muse.ai/solarperimeter/collections/efX7RLk">
+            <div>WAYMAKER</div>
+          </Link>
+          <Link href="https://twitter.com/solarperimeter">
+            <div>VOYAGER77 FAN CLUB</div>
+          </Link>
         </div>
       </div>
 
@@ -65,18 +72,10 @@ export default function Home() {
           <div className={styles.navigatorWidgetTitle}>ENCOMPASSER</div>
           <div className={styles.navigatorWidgetTitle}>方位磁針</div>
           <div className={styles.navigatorWidgetText}>
-            <div>HOUSES @ NORTHERN QUARTER ON THE VIDEO-TELEPHONE</div>
+            <div>HOUSES @ NORTHERN QUARTER ON THE VIDEO-TOUR</div>
           </div>
         </div>
       </div>
-
-      <div className={styles.os}>
-        <Encompasser />
-        {/* <Numeric /> */}
-        <Multios />
-      </div>
-
-      {/* <AudioPlayer tracks={tracks} /> */}
 
       <div className={styles.videoContainer}>
         <video
